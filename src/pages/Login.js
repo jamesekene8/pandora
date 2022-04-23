@@ -27,6 +27,11 @@ const Login = () => {
   return (
     <div className={classes.container}>
       <div className={classes.login__form}>
+        <img
+          src="images/logo1.svg"
+          alt=""
+          className={classes.login__form__image}
+        />
         <h1 className={classes.login__form__greeting}>Hello, Chief...</h1>
         <div className={classes.login__form__section}>
           <form onSubmit={submitFormHandler}>

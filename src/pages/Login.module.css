@@ -88,3 +88,38 @@
 .active {
   background-color: #322825;
 }
+
+.login__form__image {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 60rem) {
+  .container {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    align-items: center;
+  }
+
+  .login__image {
+    display: none;
+  }
+}
+
+@media (max-width: 90rem) {
+  .container {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login__image {
+    display: none;
+  }
+}
